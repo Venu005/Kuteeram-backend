@@ -57,35 +57,9 @@ This is the backend application for a service booking platform. It provides APIs
     yarn install
     ```
 
-## Configuration
 
-1.  Create a `.env` file in the root directory of the project (`c:\Users\Yalamanchili Venusai\Desktop\projects\intern-backend\.env`).
-2.  Add the following environment variables to the `.env` file, replacing the placeholder values with your actual configuration:
 
-    ```dotenv
-    # Server Configuration
-    PORT=5000
-    NODE_ENV=development # or production
 
-    # MongoDB Connection
-    MONGO_URI=mongodb+srv://<username>:<password>@<cluster-url>/<database-name>?retryWrites=true&w=majority
-
-    # JWT Configuration
-    JWT_SECRET=your_strong_jwt_secret_key # Replace with a strong, random secret
-
-    # Admin User Credentials (used for initial creation)
-    ADMIN_EMAIL=admin@example.com
-    ADMIN_PASSWORD=your_secure_admin_password # Replace with a strong password
-
-    # Frontend URL (for CORS configuration)
-    CLIENT_URL=http://localhost:5173 # Adjust if your frontend runs on a different port/URL
-    ```
-
-    - **`MONGO_URI`**: Your MongoDB connection string.
-    - **`JWT_SECRET`**: A secret key for signing JWT tokens. Make this long and random.
-    - **`ADMIN_EMAIL` / `ADMIN_PASSWORD`**: Credentials for the admin user that will be automatically created if it doesn't exist.
-    - **`CLIENT_URL`**: The URL of your frontend application for CORS configuration.
-    - **`NODE_ENV`**: Set to `production` when deploying. This affects cookie security settings and error handling details.
 
 ## Running the Application
 
