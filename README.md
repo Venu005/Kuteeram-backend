@@ -47,7 +47,7 @@ This is the backend application for a service booking platform. It provides APIs
 
 1.  **Clone the repository:**
     ```bash
-    git clone <your-repository-url>
+    git clone https://github.com/Venu005/Kuteeram-backend
     cd intern-backend
     ```
 2.  **Install dependencies:**
