@@ -16,7 +16,7 @@ app.use(
   cors({
     origin:
       process.env.NODE_ENV === "production"
-        ? "https://your-production-url.com"
+        ? "https://kuteeram-frontend.vercel.app"
         : "http://localhost:5173",
     credentials: true,
   })
