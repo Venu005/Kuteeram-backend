@@ -1,11 +1,11 @@
 {
   "name": "intern-backend",
   "version": "1.0.0",
-  "main": "app.js",
+  "main": "dist/app.js",
   "scripts": {
     "dev": "ts-node src/app.ts",
     "build": "tsc",
-    "start": "node ./dist/app.js",
+    "start": "node dist/app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
